@@ -54,6 +54,7 @@ button {
     height:15vh;
 }
 
+/* Adding background color to the top row*/
 .top-bg {
   background:#D6D6D6;
   color:#000;
@@ -62,6 +63,12 @@ button {
   outline:none;
 }
 
+.top-bg:active {
+   background:#4C4C4C;
+   color:#fff;
+   font-size:26px;
+   cursor:pointer;
+}
 
 /* Adding background color to the number values */
  .num-bg {
@@ -72,11 +79,10 @@ button {
 }
 
  .num-bg:active {
-    background:#000;
+    background:#4C4C4C;
     color:#fff;
     font-size:26px;
     cursor:pointer;
-    box-shadow: inset 5px 5px 5px #555;
 }
 
 /*Adding background color to the operator values */
@@ -86,14 +92,12 @@ button {
     font-size:26px;
     cursor: pointer;
     outline:none;
-
 }
 
 .opera-bg:active {
-    background:#333;
+    background:#4C4C4C;
     color:#fff;
     font-size:26px;
     cursor: pointer;
     outline:none;
-    box-shadow: inset 4px 4px 4px #555;
 }
